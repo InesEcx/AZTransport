@@ -11036,3 +11036,8 @@ body {
   border-radius: 10px;
   border: 0px dotted #000000;
 }
+
+.logo {
+  max-height:80px;
+  margin-right:.5em;
+}
