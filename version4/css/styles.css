@@ -1192,15 +1192,15 @@ footer .newsletter i {
 }
 
 /*-----------------------------------------------------------------*/
-.logo {
+.logos {
     overflow: hidden;
     padding: 60px 0;
     white-space: nowrap;
     position: relative;
   }
   
-  .logo:before,
-  .logo:after {
+  .logos:before,
+  .logos:after {
     position: absolute;
     top: 0;
     width: 250px;
@@ -1209,22 +1209,22 @@ footer .newsletter i {
     z-index: 2;
   }
   
-  .logo:before {
+  .logos:before {
     left: 0;
     background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(248, 249, 250));
   }
   
-  .logo:after {
+  .logos:after {
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(248, 249, 250));
   }
-
-  .logo-slide {
+  
+  .logos-slide {
     display: inline-block;
     animation: 35s slide infinite linear;
   }
   
-  .logo-slide img {
+  .logos-slide img {
     height: 50px;
     margin: 0 40px;
   }
